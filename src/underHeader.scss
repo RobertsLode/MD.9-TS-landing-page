@@ -1,0 +1,92 @@
+
+.under_header-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 60px;
+    max-width: 840px;
+    align-self: center;
+}
+.under_header-box-h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #7F2736;
+}
+.under_header-box-h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #2C2D32;
+}
+.pakistan_box-img {
+    width: 450px;
+    height: 430px;
+    background-image: url(assets/images/pakistan.png);
+    border-radius: 20px;
+}
+.tukey_box-img {
+    width: 450px;
+    height: 430px;
+    background-image: url(assets/images/turkey\ \(1\).png);
+    border-radius: 20px;
+}
+.beijing_box-img {
+    width: 450px;
+    height: 430px;
+    background-image: url(assets/images/china.png);
+    border-radius: 20px;
+}
+.picture_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.three--picture-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.box_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    color: #7F2736;
+}
+.beijing_box {
+    order: '1';
+}
+.turkey_box {
+    order: '2';
+}
+.pakistan_box {
+    order: '3';
+}
+.picture_box--button-left {
+    order: 0;
+}
+.picture_box--button-right {
+    order: 5;
+}
