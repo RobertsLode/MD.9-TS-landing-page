@@ -1,9 +1,6 @@
 
 
-@import 'header.scss';
-@import 'underHeader.scss';
-@import 'flexgrid.scss';
-@import 'media.scss';
+
 
 * {
   margin: 0px;
@@ -15,4 +12,31 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.img-svg {
+  background-color: transparent;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+@import 'header.scss';
+@import 'underHeader.scss';
+@import 'globaly.scss';
+@import 'video_box.scss';
+@import 'ourTeam.scss';
+@import 'chooseUs.scss';
+@import 'testimonial.scss';
+@import 'news.scss';
+@import 'footer.scss';
+
+@import 'flexgrid.scss';
+@import 'media.scss';

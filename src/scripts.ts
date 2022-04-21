@@ -79,3 +79,29 @@ pictureButtRight.addEventListener('click', () => {
   turkeyBox.style.order = turkeyOrderRev.toString();
   pakistanBox.style.order = pakistangOrderRev.toString();
 });
+
+// ------------------------ footer inputs
+const emailInputElement = document.querySelector<HTMLInputElement>('.js-email-input');
+const subscribeBtnElement = document.querySelector<HTMLButtonElement>('.js-email-button');
+const emailUlElement = document.querySelector<HTMLUListElement>('.js-email-list');
+
+subscribeBtnElement.addEventListener('click', () => {
+  const inputValue = emailInputElement.value;
+  const newLiElement = document.createElement('li');
+  newLiElement.innerText = inputValue;
+
+  emailUlElement.appendChild(newLiElement);
+  emailInputElement.value = '';
+});
+
+const footer = document.querySelector<HTMLDivElement>('.js-footer');
+
+const colors = ['#6E8013', '#13803F', '#135C80', '#1E1380', '#80134A'];
+let counter = 0;
+emailInputElement.addEventListener('input', () => {
+  counter += 1;
+  footer.style.backgroundColor = colors[counter];
+  if (counter === 4) {
+    counter = 0;
+  }
+});

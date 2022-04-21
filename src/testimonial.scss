@@ -1,0 +1,167 @@
+
+.testimonial_box {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 194px;
+}
+.testimonial_box--upper {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    justify-content: center;
+}
+.testimonial_box--upper-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.testimonial_box--upper-left-svg {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+    color: #2C2D32;
+}
+.testimonial_box--upper-left-svg-box{
+    display: flex;
+}
+
+.testimonial_box--upper-left-h1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #7F2736;
+    
+}
+.testimonial_box--upper-left-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #2C2D32;
+    max-width: 690px;
+}
+.testimonial_box--upper-left-text-2 {
+    max-width: 650px;
+}
+.testimonial_box--upper-left-butt_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+}
+.testimonial_box--upper-left-input-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: transparent;
+    border: 1px solid #EE5060;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    &:hover {
+        outline: 4px #7F2736;
+        opacity: 0.4;
+    }
+    &:active {
+        background-color: #2C2D32;
+        opacity: 0.4;
+    }
+    
+}
+.testimonial_box--upper-left-input {
+    width: 456px;
+    height: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #EE5060;
+    border: 1px solid #EE5060;
+    box-sizing: border-box;
+    border-radius: 80px;
+    display: flex;
+    text-align: center;
+    &:active {
+        border: 3px solid black;
+    }
+}
+.testimonial_box--upper-right-img {
+    border-radius: 20px;
+}
+.testimonial_box--lower{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+
+}
+.testimonial_box--lower--left {
+    width: 82px;
+    height: 93px;
+    background: #F0C53E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial_box--lower--right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial_box--lower--right-h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #595959;
+}
+.testimonial_box--lower--right-h3 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #545567;
+}
+.testimonial_box--lower--right-butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 48px;
+    background: #B25A59;
+    border-radius: 80px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: transparent;
+}

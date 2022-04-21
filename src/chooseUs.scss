@@ -1,0 +1,121 @@
+
+.choose_us--box {
+    display: flex;
+    flex-direction: column;
+    gap: 117px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 155px;
+}
+.choose_us--box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 840px;
+    gap: 11px;
+}
+.hoose_us--box-text-h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #7F2736;
+}
+.hoose_us--box-text-h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #2C2D32;
+}
+.choose_us--box-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.cards--box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    padding: 36px 54px;
+    max-width: 450px;
+    width: 100%;
+    max-height: 430px;
+    
+}
+.cards--box-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EE5060;
+    box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+    border-radius: 90px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -94px;
+}
+.cards--box-h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #7F2736;
+}
+.cards--box-h5 {
+    margin-top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #2C2D32;
+    max-width: 341px;
+    
+}
+.cards--box-h5-middle {
+    margin-top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #2C2D32;
+    width: 377px;
+    padding-bottom: 36px;
+    
+}
+.cards--box-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    padding: 36px 36px;
+    max-width: 450px;
+    width: 100%;
+    max-height: 430px;
+    
+}
+.yellow {
+    background: #F0C53E;
+}
+.brown {
+    background: #AF6C2C;
+}

@@ -1,0 +1,104 @@
+
+.globaly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 171px;
+}
+.globaly--h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 180%;
+    text-align: center;
+    color: #7F2736;
+}
+.globaly--h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2C2D32;
+    max-width: 1101px;
+}
+.globaly--trip_starter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 100px;
+    max-width: 1400px;
+}
+.globaly--trip_starter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    gap: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+     &:hover .globaly--trip_starter-hover {
+        display: flex;
+        background: #7F2736;
+        opacity: 0.8;
+        box-sizing: border-box;
+        border-radius: 20px;
+     }
+}
+.globaly--trip_starter-left {
+    background-image: url(assets/images/left-box\ 2.png);
+}
+.globaly--trip_starter-right {
+    background-image: url(assets/images/right-bbox.png);
+}
+.globaly--trip_starter-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.globaly--trip_starter-butt {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 80px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 24px 58px;
+    &:hover {
+        cursor: pointer;
+        outline: 10px solid #2C2D32;
+    }
+}
+.globaly--trip_starter-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+    display: none;
+    }
+

@@ -1,0 +1,78 @@
+
+.team_field {
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 208px;
+}
+.team_field--h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #7F2736;
+}
+.team_field--h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #2C2D32;
+    margin-top: 20px;
+}
+.team_field--main {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 175px;
+}
+.team_field--left {
+    display: flex;
+    justify-content: flex-start;
+    width: inherit;
+    height: inherit;
+}
+.team_field--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 561px;
+    gap: 45px;
+}
+.team_field--right-h1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #2C2D32;
+    margin-top: 40px;
+}
+.team_field--right-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+.team_field_svg {
+    margin-top: 24px;
+    background: #FBFBFB;
+    box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+.team_field--right-p {
+    max-width: 460px;
+}
