@@ -7,7 +7,6 @@
     margin-top: 145px;
     max-width: 1920px;
     width: 100%;
-    height: 593px;
 }
 .footer--h3 {
     font-family: 'Poppins';
@@ -87,7 +86,6 @@
 .footer-ul {
     list-style-type: none;
     width: 479px;
-    height: 157px;
 }
 
 .footer--links {
@@ -114,4 +112,12 @@
     letter-spacing: 0.04em;
     color: #A7283E;
     padding-top: 20px;
+}
+
+.email_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

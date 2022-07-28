@@ -57,24 +57,30 @@ pictureButtLeft.addEventListener('click', () => {
   turkeyBox.style.order = turkeyOrder.toString();
   pakistanBox.style.order = pakistangOrder.toString();
 });
+
 let beijingOrderRev = 1;
 let turkeyOrderRev = 2;
 let pakistangOrderRev = 3;
+
 pictureButtRight.addEventListener('click', () => {
   beijingOrderRev -= 1;
+
   if (beijingOrderRev === 0) {
     beijingOrderRev = 3;
   }
 
   turkeyOrderRev -= 1;
+
   if (turkeyOrderRev === 0) {
     turkeyOrderRev = 3;
   }
 
   pakistangOrderRev -= 1;
+
   if (pakistangOrderRev === 0) {
     pakistangOrderRev = 3;
   }
+
   beijingBox.style.order = beijingOrderRev.toString();
   turkeyBox.style.order = turkeyOrderRev.toString();
   pakistanBox.style.order = pakistangOrderRev.toString();
